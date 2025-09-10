@@ -1,16 +1,23 @@
-## Hi there 👋
-
-<!--
-**fikriik/fikriik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+const info = {
+  name: ["Bryan"],
+  pronouns: ["He", "Him", "They"],
+  langs: ["Javascript", "Typescript", "C++", "Python", "Go"],
+  topics: ["web dev", "ui/ux", "mobile dev"],
+  stack: {
+    frontend: {
+      frameworks: ["React", "Next", "Astro", "Tailwind"]
+    },
+    backend: {
+      frameworks: ["Node", "Nest"]
+    },
+    mobile: {
+      frameworks: ["React Native", "Flutter"]
+    },
+    design: {
+      tools: ["Figma", "Photoshop", "Canva"]
+    },
+    database: ["Supabase", "GQL", "MySQL"],
+    misc: ["Notion", "Obsidian", "Framer"]
+  },
+  focus: "Improving ⚡️",
+}
